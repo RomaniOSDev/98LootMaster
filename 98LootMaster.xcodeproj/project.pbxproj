@@ -3,33 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		748176D52F5A1B48008BA5CC /* AddCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176B62F5A1B48008BA5CC /* AddCharacterView.swift */; };
+		748176D62F5A1B48008BA5CC /* AddDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176B72F5A1B48008BA5CC /* AddDropView.swift */; };
+		748176D72F5A1B48008BA5CC /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176B82F5A1B48008BA5CC /* AddItemView.swift */; };
+		748176D82F5A1B48008BA5CC /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176B92F5A1B48008BA5CC /* AddSessionView.swift */; };
+		748176D92F5A1B48008BA5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176BA2F5A1B48008BA5CC /* AppDelegate.swift */; };
+		748176DA2F5A1B48008BA5CC /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176BC2F5A1B48008BA5CC /* CharacterDetailView.swift */; };
+		748176DB2F5A1B48008BA5CC /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176BD2F5A1B48008BA5CC /* CharactersView.swift */; };
+		748176DC2F5A1B48008BA5CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176BE2F5A1B48008BA5CC /* ContentView.swift */; };
+		748176DD2F5A1B48008BA5CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176BF2F5A1B48008BA5CC /* HomeView.swift */; };
+		748176DE2F5A1B48008BA5CC /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176C12F5A1B48008BA5CC /* ItemDetailView.swift */; };
+		748176DF2F5A1B48008BA5CC /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176C22F5A1B48008BA5CC /* ItemsView.swift */; };
+		748176E02F5A1B48008BA5CC /* LootDropDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176C52F5A1B48008BA5CC /* LootDropDetailView.swift */; };
+		748176E12F5A1B48008BA5CC /* LootFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176C62F5A1B48008BA5CC /* LootFeedView.swift */; };
+		748176E22F5A1B48008BA5CC /* LootMasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176C72F5A1B48008BA5CC /* LootMasterViewModel.swift */; };
+		748176E32F5A1B48008BA5CC /* LootModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176C82F5A1B48008BA5CC /* LootModels.swift */; };
+		748176E42F5A1B48008BA5CC /* LootTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176C92F5A1B48008BA5CC /* LootTheme.swift */; };
+		748176E52F5A1B48008BA5CC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176CC2F5A1B48008BA5CC /* OnboardingView.swift */; };
+		748176E62F5A1B48008BA5CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176CD2F5A1B48008BA5CC /* SceneDelegate.swift */; };
+		748176E72F5A1B48008BA5CC /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176CE2F5A1B48008BA5CC /* SessionDetailView.swift */; };
+		748176E82F5A1B48008BA5CC /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176CF2F5A1B48008BA5CC /* SessionsView.swift */; };
+		748176E92F5A1B48008BA5CC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176D02F5A1B48008BA5CC /* SettingsView.swift */; };
+		748176EA2F5A1B48008BA5CC /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176D12F5A1B48008BA5CC /* SharedViews.swift */; };
+		748176EB2F5A1B48008BA5CC /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176D22F5A1B48008BA5CC /* StatsView.swift */; };
+		748176EC2F5A1B48008BA5CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176D32F5A1B48008BA5CC /* ViewController.swift */; };
+		748176ED2F5A1B48008BA5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748176BB2F5A1B48008BA5CC /* Assets.xcassets */; };
+		748176EF2F5A1B48008BA5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748176C42F5A1B48008BA5CC /* LaunchScreen.storyboard */; };
+		748176F02F5A1B48008BA5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748176CB2F5A1B48008BA5CC /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		748174432F599426008BA5CC /* 98LootMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 98LootMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		748176B62F5A1B48008BA5CC /* AddCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCharacterView.swift; sourceTree = "<group>"; };
+		748176B72F5A1B48008BA5CC /* AddDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDropView.swift; sourceTree = "<group>"; };
+		748176B82F5A1B48008BA5CC /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		748176B92F5A1B48008BA5CC /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
+		748176BA2F5A1B48008BA5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		748176BB2F5A1B48008BA5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		748176BC2F5A1B48008BA5CC /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		748176BD2F5A1B48008BA5CC /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		748176BE2F5A1B48008BA5CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		748176BF2F5A1B48008BA5CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		748176C02F5A1B48008BA5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748176C12F5A1B48008BA5CC /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		748176C22F5A1B48008BA5CC /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
+		748176C32F5A1B48008BA5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		748176C52F5A1B48008BA5CC /* LootDropDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDropDetailView.swift; sourceTree = "<group>"; };
+		748176C62F5A1B48008BA5CC /* LootFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootFeedView.swift; sourceTree = "<group>"; };
+		748176C72F5A1B48008BA5CC /* LootMasterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootMasterViewModel.swift; sourceTree = "<group>"; };
+		748176C82F5A1B48008BA5CC /* LootModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootModels.swift; sourceTree = "<group>"; };
+		748176C92F5A1B48008BA5CC /* LootTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootTheme.swift; sourceTree = "<group>"; };
+		748176CA2F5A1B48008BA5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		748176CC2F5A1B48008BA5CC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		748176CD2F5A1B48008BA5CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		748176CE2F5A1B48008BA5CC /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		748176CF2F5A1B48008BA5CC /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		748176D02F5A1B48008BA5CC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		748176D12F5A1B48008BA5CC /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
+		748176D22F5A1B48008BA5CC /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		748176D32F5A1B48008BA5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B6DA81100E536BA726DF8D5 /* Pods_98LootMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_98LootMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE37A4504E492EE8F89D625C /* Pods-98LootMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-98LootMaster.release.xcconfig"; path = "Target Support Files/Pods-98LootMaster/Pods-98LootMaster.release.xcconfig"; sourceTree = "<group>"; };
+		E21BB643FC0E2EA5205453D9 /* Pods-98LootMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-98LootMaster.debug.xcconfig"; path = "Target Support Files/Pods-98LootMaster/Pods-98LootMaster.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		748174552F599428008BA5CC /* Exceptions for "98LootMaster" folder in "98LootMaster" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 748174422F599426008BA5CC /* 98LootMaster */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		748174452F599426008BA5CC /* 98LootMaster */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				748174552F599428008BA5CC /* Exceptions for "98LootMaster" folder in "98LootMaster" target */,
-			);
-			path = 98LootMaster;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		748174402F599426008BA5CC /* Frameworks */ = {
@@ -45,8 +85,10 @@
 		7481743A2F599426008BA5CC = {
 			isa = PBXGroup;
 			children = (
-				748174452F599426008BA5CC /* 98LootMaster */,
+				748176D42F5A1B48008BA5CC /* 98LootMaster */,
 				748174442F599426008BA5CC /* Products */,
+				934372FBF0ECF18469EC4460 /* Pods */,
+				AA2C1416C4AAF540924FB204 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +100,58 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		748176D42F5A1B48008BA5CC /* 98LootMaster */ = {
+			isa = PBXGroup;
+			children = (
+				748176B62F5A1B48008BA5CC /* AddCharacterView.swift */,
+				748176B72F5A1B48008BA5CC /* AddDropView.swift */,
+				748176B82F5A1B48008BA5CC /* AddItemView.swift */,
+				748176B92F5A1B48008BA5CC /* AddSessionView.swift */,
+				748176BA2F5A1B48008BA5CC /* AppDelegate.swift */,
+				748176BB2F5A1B48008BA5CC /* Assets.xcassets */,
+				748176BC2F5A1B48008BA5CC /* CharacterDetailView.swift */,
+				748176BD2F5A1B48008BA5CC /* CharactersView.swift */,
+				748176BE2F5A1B48008BA5CC /* ContentView.swift */,
+				748176BF2F5A1B48008BA5CC /* HomeView.swift */,
+				748176C02F5A1B48008BA5CC /* Info.plist */,
+				748176C12F5A1B48008BA5CC /* ItemDetailView.swift */,
+				748176C22F5A1B48008BA5CC /* ItemsView.swift */,
+				748176C42F5A1B48008BA5CC /* LaunchScreen.storyboard */,
+				748176C52F5A1B48008BA5CC /* LootDropDetailView.swift */,
+				748176C62F5A1B48008BA5CC /* LootFeedView.swift */,
+				748176C72F5A1B48008BA5CC /* LootMasterViewModel.swift */,
+				748176C82F5A1B48008BA5CC /* LootModels.swift */,
+				748176C92F5A1B48008BA5CC /* LootTheme.swift */,
+				748176CB2F5A1B48008BA5CC /* Main.storyboard */,
+				748176CC2F5A1B48008BA5CC /* OnboardingView.swift */,
+				748176CD2F5A1B48008BA5CC /* SceneDelegate.swift */,
+				748176CE2F5A1B48008BA5CC /* SessionDetailView.swift */,
+				748176CF2F5A1B48008BA5CC /* SessionsView.swift */,
+				748176D02F5A1B48008BA5CC /* SettingsView.swift */,
+				748176D12F5A1B48008BA5CC /* SharedViews.swift */,
+				748176D22F5A1B48008BA5CC /* StatsView.swift */,
+				748176D32F5A1B48008BA5CC /* ViewController.swift */,
+			);
+			path = 98LootMaster;
+			sourceTree = "<group>";
+		};
+		934372FBF0ECF18469EC4460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E21BB643FC0E2EA5205453D9 /* Pods-98LootMaster.debug.xcconfig */,
+				DE37A4504E492EE8F89D625C /* Pods-98LootMaster.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA2C1416C4AAF540924FB204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6DA81100E536BA726DF8D5 /* Pods_98LootMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 748174562F599428008BA5CC /* Build configuration list for PBXNativeTarget "98LootMaster" */;
 			buildPhases = (
+				596B329E62EDF36F6F5818A4 /* [CP] Check Pods Manifest.lock */,
 				7481743F2F599426008BA5CC /* Sources */,
 				748174402F599426008BA5CC /* Frameworks */,
 				748174412F599426008BA5CC /* Resources */,
@@ -73,12 +168,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				748174452F599426008BA5CC /* 98LootMaster */,
-			);
 			name = 98LootMaster;
-			packageProductDependencies = (
-			);
 			productName = 98LootMaster;
 			productReference = 748174432F599426008BA5CC /* 98LootMaster.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +189,7 @@
 				};
 			};
 			buildConfigurationList = 7481743E2F599426008BA5CC /* Build configuration list for PBXProject "98LootMaster" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +197,6 @@
 				Base,
 			);
 			mainGroup = 7481743A2F599426008BA5CC;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 748174442F599426008BA5CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +211,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748176ED2F5A1B48008BA5CC /* Assets.xcassets in Resources */,
+				748176EF2F5A1B48008BA5CC /* LaunchScreen.storyboard in Resources */,
+				748176F02F5A1B48008BA5CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		596B329E62EDF36F6F5818A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-98LootMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7481743F2F599426008BA5CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748176D52F5A1B48008BA5CC /* AddCharacterView.swift in Sources */,
+				748176D62F5A1B48008BA5CC /* AddDropView.swift in Sources */,
+				748176D72F5A1B48008BA5CC /* AddItemView.swift in Sources */,
+				748176D82F5A1B48008BA5CC /* AddSessionView.swift in Sources */,
+				748176D92F5A1B48008BA5CC /* AppDelegate.swift in Sources */,
+				748176DA2F5A1B48008BA5CC /* CharacterDetailView.swift in Sources */,
+				748176DB2F5A1B48008BA5CC /* CharactersView.swift in Sources */,
+				748176DC2F5A1B48008BA5CC /* ContentView.swift in Sources */,
+				748176DD2F5A1B48008BA5CC /* HomeView.swift in Sources */,
+				748176DE2F5A1B48008BA5CC /* ItemDetailView.swift in Sources */,
+				748176DF2F5A1B48008BA5CC /* ItemsView.swift in Sources */,
+				748176E02F5A1B48008BA5CC /* LootDropDetailView.swift in Sources */,
+				748176E12F5A1B48008BA5CC /* LootFeedView.swift in Sources */,
+				748176E22F5A1B48008BA5CC /* LootMasterViewModel.swift in Sources */,
+				748176E32F5A1B48008BA5CC /* LootModels.swift in Sources */,
+				748176E42F5A1B48008BA5CC /* LootTheme.swift in Sources */,
+				748176E52F5A1B48008BA5CC /* OnboardingView.swift in Sources */,
+				748176E62F5A1B48008BA5CC /* SceneDelegate.swift in Sources */,
+				748176E72F5A1B48008BA5CC /* SessionDetailView.swift in Sources */,
+				748176E82F5A1B48008BA5CC /* SessionsView.swift in Sources */,
+				748176E92F5A1B48008BA5CC /* SettingsView.swift in Sources */,
+				748176EA2F5A1B48008BA5CC /* SharedViews.swift in Sources */,
+				748176EB2F5A1B48008BA5CC /* StatsView.swift in Sources */,
+				748176EC2F5A1B48008BA5CC /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		748176C42F5A1B48008BA5CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748176C32F5A1B48008BA5CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		748176CB2F5A1B48008BA5CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748176CA2F5A1B48008BA5CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		748174572F599428008BA5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21BB643FC0E2EA5205453D9 /* Pods-98LootMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +308,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 98LootMaster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Loot Master";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-8LootMaster";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mat.l83tm2st9r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		748174582F599428008BA5CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE37A4504E492EE8F89D625C /* Pods-98LootMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +346,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 98LootMaster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Loot Master";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-8LootMaster";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mat.l83tm2st9r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
