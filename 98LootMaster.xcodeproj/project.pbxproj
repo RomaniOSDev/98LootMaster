@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74214FDC2F67FAB900338F5F /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FDA2F67FAB900338F5F /* StartMainView.swift */; };
+		74214FDD2F67FAB900338F5F /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FD82F67FAB900338F5F /* PrivacyWebView.swift */; };
+		74214FDE2F67FAB900338F5F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FD72F67FAB900338F5F /* PersistenceManager.swift */; };
+		74214FDF2F67FAB900338F5F /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FD92F67FAB900338F5F /* SaveService.swift */; };
+		74214FE02F67FAB900338F5F /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74214FD62F67FAB900338F5F /* AppRouter.swift */; };
 		748176D52F5A1B48008BA5CC /* AddCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176B62F5A1B48008BA5CC /* AddCharacterView.swift */; };
 		748176D62F5A1B48008BA5CC /* AddDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176B72F5A1B48008BA5CC /* AddDropView.swift */; };
 		748176D72F5A1B48008BA5CC /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748176B82F5A1B48008BA5CC /* AddItemView.swift */; };
@@ -37,6 +42,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74214FD62F67FAB900338F5F /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		74214FD72F67FAB900338F5F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		74214FD82F67FAB900338F5F /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		74214FD92F67FAB900338F5F /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		74214FDA2F67FAB900338F5F /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		748174432F599426008BA5CC /* 98LootMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 98LootMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748176B62F5A1B48008BA5CC /* AddCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCharacterView.swift; sourceTree = "<group>"; };
 		748176B72F5A1B48008BA5CC /* AddDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDropView.swift; sourceTree = "<group>"; };
@@ -82,6 +92,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74214FDB2F67FAB900338F5F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				74214FD62F67FAB900338F5F /* AppRouter.swift */,
+				74214FD72F67FAB900338F5F /* PersistenceManager.swift */,
+				74214FD82F67FAB900338F5F /* PrivacyWebView.swift */,
+				74214FD92F67FAB900338F5F /* SaveService.swift */,
+				74214FDA2F67FAB900338F5F /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		7481743A2F599426008BA5CC = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +153,7 @@
 				748176D12F5A1B48008BA5CC /* SharedViews.swift */,
 				748176D22F5A1B48008BA5CC /* StatsView.swift */,
 				748176D32F5A1B48008BA5CC /* ViewController.swift */,
+				74214FDB2F67FAB900338F5F /* Router */,
 			);
 			path = 98LootMaster;
 			sourceTree = "<group>";
@@ -259,6 +282,11 @@
 				748176DC2F5A1B48008BA5CC /* ContentView.swift in Sources */,
 				748176DD2F5A1B48008BA5CC /* HomeView.swift in Sources */,
 				748176DE2F5A1B48008BA5CC /* ItemDetailView.swift in Sources */,
+				74214FDC2F67FAB900338F5F /* StartMainView.swift in Sources */,
+				74214FDD2F67FAB900338F5F /* PrivacyWebView.swift in Sources */,
+				74214FDE2F67FAB900338F5F /* PersistenceManager.swift in Sources */,
+				74214FDF2F67FAB900338F5F /* SaveService.swift in Sources */,
+				74214FE02F67FAB900338F5F /* AppRouter.swift in Sources */,
 				748176DF2F5A1B48008BA5CC /* ItemsView.swift in Sources */,
 				748176E02F5A1B48008BA5CC /* LootDropDetailView.swift in Sources */,
 				748176E12F5A1B48008BA5CC /* LootFeedView.swift in Sources */,
@@ -319,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mat.l83tm2st9r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -357,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mat.l83tm2st9r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
